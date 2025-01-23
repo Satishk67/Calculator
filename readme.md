@@ -8,7 +8,7 @@
     * Integer part of Square-root
 
 - It is hosted using vercel.
- -  Open this to visit : [https://calculator-nu-fawn-96.vercel.app/]
+ -  Open this to visit : https://calculator-nu-fawn-96.vercel.app/
   - It is an interactive page where user can interact through his inputs and get their answer rendered on screen.
 
 # TECH-STACK

@@ -5,7 +5,8 @@
     * Subtraction
     * Multiplication
     * Division
-    * Integer part of Square-root
+    * Square-root
+    * Percentage
 
 - It is hosted using vercel.
  -  Open this to visit : https://calculator-nu-fawn-96.vercel.app/
@@ -19,3 +20,15 @@
 # CSS - PROPERTY
  -  I used both grid and flex display property.
  -  Also there are transition on button when they are clicked.
+
+# JavaScript PROPERTY
+- Event Listeners
+- Functions
+- Query-Selectors
+- so on.
+
+# Note
+- All designes are from scratch not copied by any external source.
+- Also all codes are mine.
+
+

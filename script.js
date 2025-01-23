@@ -1,19 +1,20 @@
-// Select elements
+
+// elements
 const display = document.getElementById("display");
 const buttons = document.querySelectorAll(".btn");
 
-// Initialize variables
+// variables
 let currentInput = "";
 let result = null;
 let operator = null;
 let calculationHistory = "";
 
-// Function to update the display
+// update the display
 function updateDisplay(value) {
     display.textContent = value || "0";
 }
 
-// Function to handle button clicks
+// handling button clicks
 buttons.forEach((button) => {
     button.addEventListener("click", () => {
         const buttonClass = button.classList;
@@ -23,7 +24,7 @@ buttons.forEach((button) => {
             buttonClass.contains("four") || buttonClass.contains("five") || buttonClass.contains("six") ||
             buttonClass.contains("one") || buttonClass.contains("two") || buttonClass.contains("three") ||
             buttonClass.contains("zero") || buttonClass.contains("decimal")) {
-            // Handle numbers and decimal point
+            // numbers and decimal point
             if (buttonText === "." && currentInput.includes(".")) return;
             currentInput += buttonText;
             calculationHistory += buttonText;
@@ -36,12 +37,12 @@ buttons.forEach((button) => {
             calculationHistory = "";
             updateDisplay("0");
         } else if (buttonClass.contains("back")) {
-            // Backspace functionality
+            // Backspace 
             currentInput = currentInput.slice(0, -1);
             calculationHistory = calculationHistory.slice(0, -1);
             updateDisplay(calculationHistory || "0");
         } else if (buttonClass.contains("ans")) {
-            // Calculate the result
+            // Calculate the answer
             if (currentInput && operator) {
                 const currentNumber = parseFloat(currentInput);
                 switch (operator) {
@@ -112,5 +113,4 @@ buttons.forEach((button) => {
     });
 });
 
-// Initialize display
 updateDisplay("0");

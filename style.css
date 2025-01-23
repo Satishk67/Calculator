@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(59, 123, 125, 0.285);
+}
+
+h1{
+    margin: 4vh;
+    text-align: center;
+    text-shadow: 3px 3px  rgb(17, 1, 15);
+    color: rgba(250, 245, 252, 0.96);
+    font-family: lexend giga, serif;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+
+.box{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(253, 249, 249, 0.988);
+    box-shadow: 0px 0px 10px rgba(28, 187, 208, 0.911);
+    border-style:ridge;
+    border-radius: 25px;
+    padding: 5px;
+    height: 60vh;
+    width: 20vw;
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 25px;
+    row-gap: 4px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+#display{
+    background-color: rgba(62, 191, 238, 0.8);
+    color: white;
+    border: none;
+    border-radius: 35px;
+    text-align: end;
+    padding: 2px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    width: 18vw;
+    height: 10vh;
+    overflow:auto;
+    cursor: text;
+}
+
+.btn{
+    background-color: rgba(162, 177, 193, 0.34);
+    border-radius: 15vw;
+    height: 7.25vh;
+    width: 3.5vw;
+    border: none;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.705);
+    font-family: lexend giga, serif;
+    font-weight: 800;
+    transition: background-color 0.2s ease-in;
+    transition: color 0.2s ease-in;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+}
+
+.last1{
+    color: white;
+    background-color: rgb(3, 3, 60);
+}
+.last2{
+    color: white;
+    background-color: rgb(241, 47, 202);
+}
+.last3{
+    color: white;
+    background-color: rgb(216, 41, 22);
+}
+.last4{
+    color: white;
+    background-color: rgb(234, 156, 10);
+}
+.last5{
+    color: white;
+    background-color: rgb(15, 233, 37);
+}
+
+h2{
+    font-family: lexend giga, serif;
+    font-weight: 400;
+    margin: 15px;
+    text-decoration: solid rgba(204, 39, 6, 0.723) underline;
+}
+
+.instruction{
+    margin-left: 10vw;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contentbox{
+    font-family: varela Round, serif;
+    border: 2px solid rgb(25, 24, 26);
+    display: grid;
+    align-items: center;
+    width: 25vw;
+}
+
+.details{
+    border-bottom: 1px solid rgb(12, 12, 12);
+    font-size: small;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.ad{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    
+}
+
+.logo{
+    padding: 0;
+    margin-bottom: 40px;
+    height: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: lexend giga, serif;
+    font-size: small;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    transition: text-shadow 0.25s ease-in;
+}
+
+.logo:hover{
+    text-shadow: 0px 0px 2px rgb(255, 120, 2);
+}
+
+.logo:visited{
+    color: purple;
+}
+
+.minilogo{
+    height: 20px;
+    width: 20px;
+    object-position: bottom;
+    align-items: baseline;
+    cursor: auto;
+}
+hr{
+    opacity: 0.3;
+    border: 0.5px solid rgb(237, 114, 114);
+    width: 60vw;
+    margin: 15px auto;
+
+}
+

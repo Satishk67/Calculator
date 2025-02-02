@@ -180,3 +180,13 @@ hr{
 
 }
 
+/* COPYRIGHT CLAIM */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(237, 114, 114);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: 700;
+}

@@ -35,7 +35,7 @@ h1{
     display: grid;
     align-items: center;
     justify-self: center;
-    margin-bottom: 25px;
+    margin: auto;
     row-gap: 4px;
 }
 
